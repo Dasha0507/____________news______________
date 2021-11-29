@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+ 
+/* .border {
+    border-bottom: 1px solid #000;
+}
+ 
+.packet {
+    height: 185px;
+    margin: 30px 0;
+}
+
+.info {
+    margin: 30px 0;
+    width: 670px;
+    height: 125px;
+    margin-right: 320px;
+    align-items: center;
+}
+ 
+.info p {
+    font-size: 20px;
+}
+ 
+.info a {
+    font-size: 24px;
+    color: #0463a7;
+}
+ 
+.info a:hover{
+    text-decoration-line: underline;
+}
+ 
+.price {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+} */
+
+ul{
+    overflow: hidden;
+  }
+  
+  li{
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+    
+.subscription:active {
+      background: rgba(209, 196, 176, 0.356);
+  }
+  
+  li:hover {
+    background: rgba(209, 196, 176, 0.356);
+  }
+    
+  .d-flex {
+    display: flex;
+  }  
+  
+  .subscription{
+      display: flex;
+      border-bottom: 1px solid #000;
+  }
+ 
